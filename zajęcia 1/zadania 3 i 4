@@ -1,0 +1,11 @@
+# 3. Stwórz funkcję o nazwie pole_kola, która oblicza pole powierzchni koła dla danego promienia.
+polekoła = function(promien){
+  polekoła = pi* promien^2
+  return(polekoła)
+}
+
+# 4. Stwórz funkcję, która oblicza długość przeciwprostokątnej w trójkącie prostokątnym.
+przeciwprostokątna = function(przyprostokątna1, przyprostokątna2){
+  przeciwprostokątna = (przyprostokątna1^2+przyprostokątna2^2)^(1/2)
+  return(przeciwprostokątna)
+}
